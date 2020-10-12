@@ -4,42 +4,42 @@
             "name": "아이슈페너",
             "price": "4,300원",
             "temperature": "ice",
-            "image": "/img/c3.png"
+            "image": "img/c3.png"
         },
         {
             "type": "coffee",
             "name": "에스프레소",
             "price":  "1,500원",
             "temperature": "hot",
-            "image": "/img/c2.png"
+            "image": "img/c2.png"
         },
         {
             "type": "coffee",
             "name": "카라멜마끼야또",
             "price":  "4,500원",
             "temperature": "hot",
-            "image": "/img/c4.png"
+            "image": "img/c4.png"
         },
         {
             "type": "coffee",
             "name": "핫모카",
             "price":  "4,500원",
             "temperature": "hot",
-            "image": "/img/c5.png"
+            "image": "img/c5.png"
         },
         {
             "type": "coffee",
             "name": "아포카토라떼",
             "price": "5,500원",
             "temperature": "ice",
-            "image": "/img/c6.png"
+            "image": "img/c6.png"
         },
         {
             "type": "coffee",
             "name": "카푸치노",
             "price": "3,500원",
             "temperature": "hot",
-            "image": "/img/c7.png"
+            "image": "img/c7.png"
         },
         {
             "type": "beverage",
