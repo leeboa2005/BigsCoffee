@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bigs coffee</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <script src="src/main2.js" defer></script>
+</head>
+
+<body>
+    <!--container-->
+    <div class="container">
+        <!--logo-->
+        <header class="logo">
+            <img src="img/logo.png" class="logo_img">
+            <div class="fixed">
+            <a href="#">
+             <img src="img/fix_menu.png">
+            </a>
+            </div>
+        </header>
+        <!--//logo-->
+        <!--슬라이더-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide1">
+            <a href="#">
+              <img src="img/sd1.png" alt="슬라이드 이미지1" />
+            </a>
+          </div>
+          <div class="swiper-slide slide2">
+            <a href="#">
+              <img src="img/sd3.png" alt="슬라이드 이미지1" />
+            </a>
+          </div>
+          <div class="swiper-slide slide3">
+            <a href="#">
+              <img src="img/sd2.png" alt="슬라이드 이미지1" />
+            </a>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-black"></div>
+      </div>
+        <!--buttons-->
+        <article class="buttons">
+            <button class="btn"><img src="img/coffee.png" alt="coffee" class="imgBtn" data-key="type"
+                    data-value="coffee" /></button>
+            <button class="btn"><img src="img/beverage.png" alt="beverage" class="imgBtn" data-key="type"
+                    data-value="beverage" /></button>
+            <button class="btn"><img src="img/desert.png" alt="skirt" class="imgBtn" data-key="type"
+                    data-value="desert" /></button>
+            <button class="btn colorBtn blue" data-key="temperature" data-value="ice">Ice</button>
+            <button class="btn colorBtn yellow" data-key="temperature" data-value="hot">Hot</button>
+            <!-- <button class="btn colorBtn pink" data-key="color" data-value="pink"> Pink</button> -->
+        </article>
+        <!--//buttons-->
+        <!--clothes content-->
+        <section class="clothes">
+            <!--clothes item-->
+            <ul>
+            </ul>
+        </section>
+        <footer class="footer_menu">
+            <ul>
+                <li><a href="#"><i class="far fa-credit-card"></i><p>맴버쉽</p></a></li>
+                <li><a href="#"><i class="fas fa-gift"></i><p>선물하기</p></a></li>
+                <li><a href="#"><i class="fas fa-search-location"></i><p>매장찾기</p></a></li>
+                <li><a href="#"><i class="fas fa-thumbtack"></i><p>이벤트</p></a></li>
+                <li><a href="#"><i class="fas fa-user-cog"></i><p>내계정</p></a></li>
+            </ul>
+        </footer>
+        <!--clothes items-->
+    </div>
+    <!--container-->
+<!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".swiper-container", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
