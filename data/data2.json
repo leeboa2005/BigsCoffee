@@ -1,0 +1,150 @@
+{
+    "items": [{
+            "type": "coffee",
+            "name": "아이슈페너",
+            "price": "4,300원",
+            "temperature": "ice",
+            "image": "../img/c3.png"
+        },
+        {
+            "type": "coffee",
+            "name": "에스프레소",
+            "price":  "1,500원",
+            "temperature": "hot",
+            "image": "../img/c2.png"
+        },
+        {
+            "type": "coffee",
+            "name": "카라멜마끼야또",
+            "price":  "4,500원",
+            "temperature": "hot",
+            "image": "../img/c4.png"
+        },
+        {
+            "type": "coffee",
+            "name": "카페모카",
+            "price":  "4,500원",
+            "temperature": "hot",
+            "image": "../img/c5.png"
+        },
+        {
+            "type": "coffee",
+            "name": "아포카토라떼",
+            "price": "5,500원",
+            "temperature": "ice",
+            "image": "../img/c6.png"
+        },
+        {
+            "type": "coffee",
+            "name": "카푸치노",
+            "price": "3,500원",
+            "temperature": "hot",
+            "image": "../img/c7.png"
+        },
+        {
+            "type": "beverage",
+            "name": "타로버블티",
+            "price": "4,000원",
+            "temperature": "ice",
+            "image": "img/b10.png"
+        },
+        {
+            "type": "beverage",
+            "name": "배사과티",
+            "price": "4,500원",
+            "temperature": "ice",
+            "image": "img/b1.png"
+        },
+        {
+            "type": "beverage",
+            "name": "카페모카",
+            "price": "4,500원",
+            "temperature": "ice",
+            "image": "img/b2.png"
+        },
+        {
+            "type": "beverage",
+            "name": "고구마라뗴",
+            "price": "4,500원",
+            "temperature": "ice",
+            "image": "img/b3.png"
+        },
+        {
+            "type": "beverage",
+            "name": "레몬에이드",
+            "price": "3,500원",
+            "temperature": "ice",
+            "image": "img/b9.png"
+        },
+        {
+            "type": "beverage",
+            "name": "베리젤라또",
+            "price": "5,500원",
+            "temperature": "ice",
+            "image": "img/b5.png"
+        },
+        {
+            "type": "beverage",
+            "name": "자두에이드",
+            "price": "4,000원",
+            "temperature": "ice",
+            "image": "img/b6.png"
+        },
+        {
+            "type": "beverage",
+            "name": "페퍼민트",
+            "price": "3,000원",
+            "temperature": "hot",
+            "image": "img/b7.png"
+        },
+        {
+            "type": "beverage",
+            "name": "블랙티",
+            "price": "3,000원",
+            "temperature": "hot",
+            "image": "img/b8.png"
+        },
+        {
+            "type": "desert",
+            "name": "베리빙수",
+            "price": "9,500원",
+            "temperature": "ice",
+            "image": "img/d1.png"
+        },
+        {
+            "type": "desert",
+            "name": "오레오빙수",
+            "price": "9,000원",
+            "temperature": "ice",
+            "image": "img/d2.png"
+        },
+        {
+            "type": "desert",
+            "name": "와플세트",
+            "price": "4,500원",
+            "temperature": "hot",
+            "image": "img/d3.png"
+        },
+        {
+            "type": "desert",
+            "name": "베리페스츄리",
+            "price": "6,500원",
+            "temperature": "hot",
+            "image": "img/d4.png"
+        },
+        {
+            "type": "desert",
+            "name": "초코페스츄리",
+            "price": "6,500원",
+            "temperature": "hot",
+            "image": "img/d5.png"
+        },
+        {
+            "type": "desert",
+            "name": "티라미스",
+            "price": "4,500원",
+            "temperature": "hot",
+            "image": "img/d6.png"
+        } 
+    ]
+}
